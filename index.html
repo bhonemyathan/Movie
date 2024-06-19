@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation bar  -->
+    <header>
+      <nav>
+        <h2 class="logo">Movie</h2>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#movies">Movies</a></li>
+          <li><a href="#series">Series</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+          <li>
+            <button class="sign-btn"><a href="">Sign In</a></button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Navigation bar  -->
+    <main>
+      <!-- Home Section  -->
+      <section id="home">
+        <div class="home-container">
+          <video autoplay muted loop class="myVideo">
+            <source src="./images/medium.mp4" type="video/mp4" />
+          </video>
+          <div class="info">
+            <p class="time">Duration: 2h 11m</p>
+            <p class="rating"><i class="fa-solid fa-star"></i> 7.5</p>
+            <h1 class="heading-text">The Medium</h1>
+            <p class="desc">
+              A shaman's family learn that their goddess is supposedly
+              controlling one of them. However, their lives take a frightening
+              turn when they realise the goddess has nothing to do with the
+              possession.
+            </p>
+            <div class="btn-group">
+              <button class="watch-btn">
+                <i class="fa-solid fa-play"></i> Watch
+              </button>
+              <button class="add-btn">
+                <i class="fa-solid fa-plus"></i> Add List
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section  -->
+      <!-- Trends now  -->
+      <section class="trends">
+        <div class="container">
+          <div class="head-container">
+            <h2><i class="fa-solid fa-arrow-trend-up"></i> Trends Now</h2>
+            <a href=""><i class="fa-solid fa-fire"></i> Popular</a>
+            <a href=""><i class="fa-solid fa-star"></i> Premium</a>
+            <a href=""><i class="fa-solid fa-plus"></i> Recently Add</a>
+          </div>
+          <hr class="break-line" />
+          <div class="head-category">
+            <button class="category-btn choose"><a href="">Action</a></button>
+            <button class="category-btn"><a href="">Adventure</a></button>
+            <button class="category-btn"><a href="">Animation</a></button>
+            <button class="category-btn choose">
+              <a href="">Biography</a>
+            </button>
+            <button class="category-btn"><a href="">Crime</a></button>
+            <button class="category-btn"><a href="">Comedy</a></button>
+            <button class="category-btn"><a href="">Documentary</a></button>
+            <button class="category-btn choose"><a href="">Drama</a></button>
+            <button class="next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="movie-list">
+            <div class="movie-card">
+              <img src="./images/m1.webp" alt="" />
+              <h3>Gravity</h3>
+              <div class="movie-info">
+                <div class="left"><span>2013</span></div>
+                <div class="right">
+                  <span class="info"><i class="fa-solid fa-heart"></i></span
+                  ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                  <span class="info"><i class="fa-solid fa-star"></i> 7.7</span>
+                </div>
+              </div>
+            </div>
+            <div class="movie-card">
+              <img src="./images/m2.jpg" alt="" />
+              <h3>Mama</h3>
+              <div class="movie-info">
+                <div class="left"><span>2013</span></div>
+                <div class="right">
+                  <span class="info"><i class="fa-solid fa-heart"></i></span
+                  ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                  <span class="info"><i class="fa-solid fa-star"></i> 6.2</span>
+                </div>
+              </div>
+            </div>
+            <div class="movie-card">
+              <img src="./images/m3.jpg" alt="" />
+              <h3>In the tall grass</h3>
+              <div class="movie-info">
+                <div class="left"><span>2019</span></div>
+                <div class="right">
+                  <span class="info"><i class="fa-solid fa-heart"></i></span
+                  ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                  <span class="info"><i class="fa-solid fa-star"></i> 5.5</span>
+                </div>
+              </div>
+            </div>
+            <div class="movie-card">
+              <img src="./images/m4.png" alt="" />
+              <h3>The Pope's Exorcist</h3>
+              <div class="movie-info">
+                <div class="left"><span>2023</span></div>
+                <div class="right">
+                  <span class="info"><i class="fa-solid fa-heart"></i></span
+                  ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                  <span class="info"><i class="fa-solid fa-star"></i> 6.1</span>
+                </div>
+              </div>
+            </div>
+            <div class="movie-card">
+              <img src="./images/m5.jpg" alt="" />
+              <h3>The Forgotten</h3>
+              <div class="movie-info">
+                <div class="left"><span>2004</span></div>
+                <div class="right">
+                  <span class="info"><i class="fa-solid fa-heart"></i></span
+                  ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                  <span class="info"><i class="fa-solid fa-star"></i> 5.8</span>
+                </div>
+              </div>
+            </div>
+            <div class="movie-card">
+              <img src="./images/m6.jpg" alt="" />
+              <h3>Apostle</h3>
+              <div class="movie-info">
+                <div class="left"><span>2018</span></div>
+                <div class="right">
+                  <span class="info"><i class="fa-solid fa-heart"></i></span
+                  ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                  <span class="info"><i class="fa-solid fa-star"></i> 6.3</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Trends now  -->
+      <!-- Movies section  -->
+      <section id="movies" class="movies">
+        <div class="movie-container">
+          <h2><i class="fa-solid fa-film"></i> Movies</h2>
+          <a href=""><i class="fa-solid fa-folder-plus"></i> Series</a>
+          <a href=""><i class="fa-solid fa-check"></i> Original Series</a>
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+        </div>
+        <hr class="break-line" />
+        <div class="head-category">
+          <button class="category-btn choose"><a href="">Action</a></button>
+          <button class="category-btn"><a href="">Adventure</a></button>
+          <button class="category-btn"><a href="">Animation</a></button>
+          <button class="category-btn choose">
+            <a href="">Biography</a>
+          </button>
+          <button class="category-btn"><a href="">Crime</a></button>
+          <button class="category-btn"><a href="">Comedy</a></button>
+          <button class="category-btn"><a href="">Documentary</a></button>
+          <button class="category-btn choose"><a href="">Drama</a></button>
+          <button class="next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="sort">
+          <div>
+            <span>Sort by:</span>
+            <button class="btn choose">Latest</button>
+            <form action="">
+              <select name="year" id="year" class="btn">
+                <option value="empty">Year</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+              </select>
+              <select name="alphabet" id="alphabet" class="btn">
+                <option value="empty">A-Z</option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+              </select>
+            </form>
+          </div>
+          <div class="rating-range">
+            <span><i class="fa-solid fa-star"></i></span>
+            <input
+              type="range"
+              name="rating"
+              id="rating"
+              min="0"
+              max="10"
+              value="5"
+              class="slider"
+            />
+            <span>5.0</span>
+          </div>
+        </div>
+        <div class="movie-list">
+          <div class="movie-card">
+            <img src="./images/m1.webp" alt="" />
+            <h3>Gravity</h3>
+            <div class="movie-info">
+              <div class="left"><span>2013</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 7.7</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m2.jpg" alt="" />
+            <h3>Mama</h3>
+            <div class="movie-info">
+              <div class="left"><span>2013</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 6.2</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m3.jpg" alt="" />
+            <h3>In the tall grass</h3>
+            <div class="movie-info">
+              <div class="left"><span>2019</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 5.5</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m4.png" alt="" />
+            <h3>The Pope's Exorcist</h3>
+            <div class="movie-info">
+              <div class="left"><span>2023</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 6.1</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m5.jpg" alt="" />
+            <h3>The Forgotten</h3>
+            <div class="movie-info">
+              <div class="left"><span>2004</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 5.8</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m6.jpg" alt="" />
+            <h3>Apostle</h3>
+            <div class="movie-info">
+              <div class="left"><span>2018</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 6.3</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m1.webp" alt="" />
+            <h3>Gravity</h3>
+            <div class="movie-info">
+              <div class="left"><span>2013</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 7.7</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m2.jpg" alt="" />
+            <h3>Mama</h3>
+            <div class="movie-info">
+              <div class="left"><span>2013</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 6.2</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m3.jpg" alt="" />
+            <h3>In the tall grass</h3>
+            <div class="movie-info">
+              <div class="left"><span>2019</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 5.5</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m4.png" alt="" />
+            <h3>The Pope's Exorcist</h3>
+            <div class="movie-info">
+              <div class="left"><span>2023</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 6.1</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m5.jpg" alt="" />
+            <h3>The Forgotten</h3>
+            <div class="movie-info">
+              <div class="left"><span>2004</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 5.8</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="./images/m6.jpg" alt="" />
+            <h3>Apostle</h3>
+            <div class="movie-info">
+              <div class="left"><span>2018</span></div>
+              <div class="right">
+                <span class="info"><i class="fa-solid fa-heart"></i></span
+                ><span class="info"><i class="fa-solid fa-eye"></i></span>
+                <span class="info"><i class="fa-solid fa-star"></i> 6.3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Movie section  -->
+      <!-- Contact section  -->
+      <section id="contact" class="contact">
+        <form action="" class="contact-form">
+          <h2>Contact us with email</h2>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email..."
+          />
+          <button type="submit" class="send-btn">
+            Send <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </section>
+      <!-- Contact section  -->
+    </main>
+    <!-- Footer Section  -->
+    <footer>
+      <div class="footer-head">
+        <h2 class="logo">Movie</h2>
+        <div class="menu">
+          <a href="#home">Home</a>
+          <a href="#movies">Movies</a>
+          <a href="#">Series</a>
+          <a href="#contact">Contact</a>
+          <a href="#">About</a>
+        </div>
+        <div class="socials">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-end">
+        <div>
+          <p>info@movie.com</p>
+          <p>(+959)-451246249</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
